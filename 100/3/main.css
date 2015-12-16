@@ -1,0 +1,45 @@
+.clearfix:before,
+.clearfix:after{
+content:" ";
+display:table;
+clear: both;
+}
+
+
+
+
+
+
+.box{
+	border: 1px solid red;
+}
+.left{
+width: 200px;
+height: 100px;
+background-color: green;
+}
+.right{
+	width: 200px;
+	height: 100px;
+	background-color: lightseagreen;
+}
+.left,.right{
+float: left;
+}
+.preant{
+	
+	background-color: blue;
+}
+.child{
+	height: 50px;
+	width: 40%;
+	background-color: yellow;
+	margin-top: 30px;
+}
+.giral{
+	height:50px;
+	width: 40%;
+	background-color: #000;
+	margin-top: 40px; 
+
+}
