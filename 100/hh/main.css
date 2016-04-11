@@ -40,24 +40,19 @@ h1, h2, h3 {
 
 
 
-
 .ding{
 	width: 100%;
 	height: 3.2em;
     background-color:  #000000;
 }
-
-.ding ul{
-	line-height: 3em;
+.ding .dl{
+	margin-right: 15em;
+}
+.ding .dl ul li{
 	float: right;
-	padding-right: 15em;
-}
-.ding ul li{
-	float: left;
-	 font-size: 1.5em;
-}
-.ding ul li a{
-	padding-left: 2em;
+	padding-right: 3em;
+	padding-top: 0.5em;
+	font-size: 1.5em;
 	color: #ffffff;
 }
 .ding .db{
@@ -66,50 +61,63 @@ h1, h2, h3 {
 }
 
 
-
-
-
-
-
 .dh{
 	width: 100%;
 	height: 21.6em;
 	background-color:  #ffffff;
+	position: relative;
 }
-.dh ul{
-	line-height: 8em;
-	float: right;
-	padding-right: 20em;
+.dh .logo{
+	position: absolute;
+	left: 17em;
+	top: 1em;
 }
-.dh ul li{
-	float: left;
-	 font-size: 1.5em;
-}
-.dh ul li a{
-	padding-left: 2em;
-	color: #000000;
-}
-.dh .gd ul{
-	line-height: 8em;
-	float: right;
-	padding-right: 5em;
+.dh .gd{
+	width: 60%;
+	height: 2em;
+	position: absolute;
+	left: 27%;
+	top: 2.3em;
 }
 .dh .gd ul li{
 	float: left;
-	 font-size: 1.5em;
-}
-.dh .gd ul li a{
 	padding-left: 2em;
-	color: #434242;
+	font-size: 1.5em;
+	color: #262626;
 }
-.dh .logo{
+.dh .gw{
+	width: 30%;
+	height: 2.5em;
+	position: absolute;
+	left: 52%;
+	top: 1.9em;
+}
+.dh .gw ul li{
+	float: right;
+	padding-right: 2em;
+	font-size: 1.7em;
+	color: #000000;
+}
+.dh .dh1{
+	margin-left: 19em;
+	padding-top: 6.5em;
+}
+.dh .dh1 ul li{
 	float: left;
-	padding-left: 20em;
-	padding-top: 2em;
+	padding-left: 2.3em;
+	font-size: 2em;
+	color: #19191a;
 }
 
-
-
-.dt{
-	text-align: center;
+.ssn{
+	width: 14em;
+	height: 2em;
+	position: absolute;
+	left: 60%;
+}
+.ssn1{
+	width: 3em;
+	height: 2.2em;
+	position: absolute;
+	left: 74%;
 }
