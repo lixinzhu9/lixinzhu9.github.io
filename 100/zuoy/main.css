@@ -225,7 +225,7 @@ h1, h2, h3 {
 
 .di{
 	width: 1366px;
-	height: 230px;
+	height: 220px;
 	background-color: #000000;
 	margin: 40px auto 0px auto;	
 	color: #ffffff;
@@ -240,14 +240,14 @@ h1, h2, h3 {
 .ditu{
 	margin: 0px auto;
 	float: left;
-	padding-left: 120px;
+	padding-left: 125px;
 	padding-top: 20px;
-	width: 180px;	
+	width: 150px;	
 }
 
 .gy{
 	float: left;
-	padding-left: 100px;
+	padding-left: 105px;
 	font-size: 14px;
 	padding-top: 40px;
 }
@@ -260,7 +260,7 @@ h1, h2, h3 {
 }
 .xs,.gw,.bz,.zx{
 	float: left;
-	padding-left: 90px;
+	padding-left: 95px;
 	font-size: 14px;
 	padding-top: 40px;
 }
