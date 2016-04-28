@@ -1,0 +1,73 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+
+nav{
+	width: 40%;
+	height: 5em;
+	background-color: lightseagreen;
+	float: right;
+	line-height: 5em;
+	box-sizing:border-box;
+	display: none;
+
+}
+nav a{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	float: left;
+	padding: 10px;
+	
+}
+
+menu{
+	width: 30%;
+	height: 15em;
+	background-color: lightseagreen;
+	line-height: 5em;
+	`
+}
+menu a{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+}
+
+@media (min-width: 500px){
+	menu{
+		display: none;
+	}
+	nav{
+		display: block;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

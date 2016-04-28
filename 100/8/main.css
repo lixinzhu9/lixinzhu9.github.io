@@ -1,0 +1,20 @@
+.box{
+	width: 300px;
+	height: 200px;
+	background-color: pink;
+	transition:all 1s;
+}
+.box.smalle{
+	background-color: blue;
+	transform:scale(0.2,0.2);
+	-ms-transform:scale(0.2,0.2);
+	-webkit-transform:scale(0.2,0.2);
+	-o-transform:scale(0.2,0.2);
+	-moz-transform:scale(0.2,0.2);
+
+	transform-origin:50% 50%;
+    -ms-transform-origin:50% 50%;
+    -webkit-transform-origin:50% 50%;
+    -o-transform-origin:50% 50%;
+    -moz-transform-origin:50% 50%;
+}
