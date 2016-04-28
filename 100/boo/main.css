@@ -1,0 +1,77 @@
+*{
+	margin:0px;
+	padding:0px; 
+}
+
+h3{
+	padding-left: 0.5em;
+	padding-bottom: 0.5em;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+body{
+	 background: #ffffff;
+	 font-size: 63%;
+	 font-family: Helvetica,
+	 Arial,
+	 "Hiragino Sans GB",
+	 "Microsoft Yahei",
+	  "华文细黑",
+	 sans-serif;
+}
+h1, h2, h3 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+	
+
+.di{
+	width: 1366px;
+	height: 240px;
+	background-color: #000000;
+	margin: 40px auto 0px auto;	
+	color: #ffffff;
+}
+
+.di h3{
+	color: #ffffff;
+	font-size: 20px;
+	padding-left: 170px;
+	padding-top: 10px;
+}
+.ditu{
+	margin: 0px auto;
+	float: left;
+	padding-left: 120px;
+	width: 180px;	
+}
+
+.gy{
+	float: left;
+	padding-left: 100px;
+}
+.gy1{
+	padding-bottom: 6px;
+}
+.gy li{
+	padding-top: 3px;
+	font-size: 14px;	
+}
+.gy1 a{
+	font-size: 18px;
+	color: #ffffff;
+}
+.xs,.gw,.bz,.zx{
+	float: left;
+	padding-left: 90px;
+}
+.xs,.gw,.bz,.zx{
+	padding-top: 3px;
+	font-size: 14px;
+}
+
