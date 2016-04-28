@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+
+  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+  
+
+
+  <script type="text/javascript" src="js/jquery-1.7.1.js"></script>
+</head>
+<body class="clearfix">
+
+
+
+
+</head>
+<body>
+	<!--顶部-->
+  <div class="ding">
+      <div class="bu">
+      <ul>
+      <li><a href="#"></a>登录&注册</li>
+      <li><a href="#"></a>在线客服</li>
+      <li><a href="#"></a>帮助中心</li>
+      </ul>
+      <img  class="db" src="images/dingt.png">
+      </div>
+  </div>
+	 <!--logo 导航-->
+  <div class="daoh">
+     <div class="dh">
+      <img class="logo" src="images/logo.png">
+     <ul class="gd">
+     <li><a href="#"></a>每周一至周五上新  一周内免邮</li>
+     <li><a href="#"></a>会员优享积分福利  生日专属礼遇</li>
+     <li><a href="#"></a>新用户注册  送10元购物券</li>
+     </ul>
+  
+      <ul class="gwc">
+      <li><a href="#"></a>我的购物车</li>
+      <li><a href="#"></a>0件商品</li>
+      </ul> 
+
+      <ul class="dht">
+      <li><a href="#"></a>小衫</li>
+      <li><a href="#"></a>外套</li>
+      <li><a href="#"></a>套装</li>
+      <li><a href="#"></a>装饰品</li>
+      <li><a href="#"></a>包包</li>
+      <li><a href="#"></a>鞋子</li>
+      <li><a href="#"></a>帽子</li>
+      <li><a href="#"></a>牛仔系列</li>
+      <li><a href="#"></a>本周优惠</li>
+      </ul> 
+
+      <input type="text" class="ssn"/>
+      <input type="submit" value="搜索" class="ssn1">
+  </div>
+  </div>
+
+
+  <!--轮播图-->
+<script src="jquery-1.7.1.js"></script>
+<script>
+var i=0;  //记录第几张图片
+var inter; //存放计时器
+//实现切换图片
+function swarpImg()
+{if(i==2){i=0;
+    $("#imgList").stop(true,true).animate({left:"0"},500,function(){
+      $("#num li:first").stop(true,true).addClass("cur").siblings().removeClass("cur");
+      })
+}
+else{
+  $("#imgList").stop(true,true).animate({left:"-=1203"},500,function(){
+    $("#num li:eq("+i+")").stop(true,true).addClass("cur").siblings().removeClass("cur");
+    })
+  i++;
+  }
+}
+//当悬停在li上的时候切换图片
+function hoverLi(){
+  var k=i*1203;
+  $("#imgList").stop(true,true).animate({left:"-"+k},500);
+  }
+//加载函数
+$(function(){
+  inter=setInterval(swarpImg,3000);
+  $("#num li").hover(function(){
+    //停止计时器
+    clearInterval(inter);
+    var n=$(this).text();
+    i=parseInt(n)-1;//   2
+    hoverLi()
+    $(this).stop(true,true).addClass("cur").siblings().removeClass("cur");
+    },function(){
+      inter=setInterval(swarpImg,3000);
+      });
+  })
+</script>
+  <div id="banner">
+  <div id="imgList">
+  <img src="images/t2.jpg">
+  <img src="images/t1.png">
+  <img src="images/t3.png">
+  </div>
+
+<ul id="num">
+<li class="cur">1</li>
+<li>2</li>
+<li>3</li>
+</ul>
+</div>
+
+
+
+<!-------->
+<div class="tu1">
+ <img class="a" src="images/t-1.png">
+ <img class="aa" src="images/t-2.png">
+</div>
+<div class="tu2">
+ <img class="t1" src="images/t-01.png"> 
+ <img class="t2" src="images/t-02.png">  
+ <img class="t3" src="images/t-03.png"> 
+</div>
+<div class="tu3">
+ <img class="t4" src="images/t-04.png">
+ <img class="t5" src="images/t-05.png">
+ <img class="t6" src="images/t-06.png">
+ <img class="t7" src="images/t-07.png">
+</div>
+
+
+
+<!--底部-->
+  <div class="di">
+  <div class="ditu">
+    <h3>店铺查询</h3>
+  <img src="images/di.png">  
+  </div>
+
+ <ul class="gy">
+      <li class="gy1"><a href="#">关于我们</a></li>
+      <li><a href="#"></a>品牌故事</li>
+      <li><a href="#"></a>yishion新闻</li>
+      <li><a href="#"></a>工作机遇</li>
+    </ul>
+  <ul class="xs">
+      <li class="gy1"><a href="#">新手上路</a></li>
+      <li><a href="#"></a>如何注册</li>
+      <li><a href="#"></a>密码修改及保护</li>
+      <li><a href="#"></a>修改邮箱地址</li>
+      <li><a href="#"></a>修改送货地址</li>
+      <li><a href="#"></a>尺码说明</li>
+    </ul>
+  <ul class="gw">
+      <li class="gy1"><a href="#">购物指南</a></li>
+      <li><a href="#"></a>订购流程</li>
+      <li><a href="#"></a>支付方式</li>
+      <li><a href="#"></a>配送说明</li>
+      <li><a href="#"></a>关于发票</li>
+      <li><a href="#"></a>退换政策</li>
+    </ul>
+  <ul class="bz">
+      <li class="gy1"><a href="#">帮助中心</a></li>
+      <li><a href="#"></a>积分规则</li>
+      <li><a href="#"></a>积分兑换</li>
+      <li><a href="#"></a>订单查询</li>
+      <li><a href="#"></a>常见问题</li>
+      <li><a href="#"></a>联系我们</li>
+    </ul>
+  <ul class="zx">
+      <li class="gy1"><a href="#">在线客服及热线</a></li>
+      <li><a href="#"></a>周一至周日10:00-22:00</li>
+      <li><a href="#"></a>T：400-018-0960</li>   
+
+
+      
+</div>
+</body>
+</html>
