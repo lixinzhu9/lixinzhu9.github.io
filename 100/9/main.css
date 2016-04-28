@@ -1,0 +1,14 @@
+
+.box{
+	width: 300px;
+	background-color: lightseagreen;
+	position: fixed;
+	bottom: 0;
+	top: 0;
+	transition:all 1s;
+    transform:translateX(0%);
+}
+.box.samlle{
+	background-color: darkblue;
+	 transform:translateX(-95%);
+}
